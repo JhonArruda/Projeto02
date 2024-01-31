@@ -1,5 +1,6 @@
 body { 
     margin: 0px;
+    padding: 30px;
     
     font-family: 'Open Sans', sans-serif;
 
@@ -38,7 +39,7 @@ a {
 }
 
 ul li a {
-    opacity: 0,5;
+    opacity: 0.5;
 }
 
 ul li a:hover {
@@ -88,8 +89,9 @@ button {
     background: #69b99d; 
     display: flex;
   
+    align-items: center;
     cursor: pointer; 
-    padding: 14px 32px 15px;
+    padding: 14px 200px 15px;
 }
 
 button:hover{
@@ -110,7 +112,7 @@ footer a {
 }
 
 #balls {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0%;
     right: 0;
 }
